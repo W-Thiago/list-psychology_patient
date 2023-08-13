@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(253, 253, 253);
+}
+
+.img-prefeitura {
+  margin: 10px;
+  padding: 4px;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-list {
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.referencePsi {
+  margin: 5px;
+}
+
+.buttonAdci {
+  padding: 5px;
+  text-align: left;
+}
+
+.buttonAdci {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 235, 223);
+}
+
+.buttonAdci:hover {
+  border: 2px solid green;
+}
+
+.buttonReset {
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+}
+
+.buttonReset {
+  font-weight: bold;
+  color: rgb(6, 6, 6);
+  background-color: rgb(238, 229, 229);
+}
+
+.buttonReset:hover {
+  border: 2px solid rgb(251, 5, 5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}

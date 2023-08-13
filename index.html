@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PREFEITURA MUNICIPAL DE QUEIMADAS – PB</title>
+    <link rel="stylesheet" href="list.css" />
+  </head>
+  <body>
+    <div class="img-prefeitura">
+      <img src="img/img-pre.png" alt="Prefeitura Municipal de Queimadas" />
+    </div>
+    <div class="top-list">
+      <h1>ESTADO DA PARAÍBA</h1>
+    </div>
+    <div class="top-list">PREFEITURA MUNICIPAL DE QUEIMADAS – PB</div>
+    <div class="top-list">SECRETARIA DE SAÚDE</div>
+    <div class="top-list">SETOR DE PSICOLOGIA SAÚDE</div>
+
+    <div class="referencePsi">
+      <div class="referencePsi">
+        <strong>Psicólogo: </strong>Thiago Pereira da Silva
+      </div>
+      <div class="referencePsi"><strong>CRP: </strong> 13/9274</div>
+      <div class="referencePsi">
+        <strong>POLICLÍNICA MUNICIPAL DE SAÚDE PMS </strong>
+      </div>
+    </div>
+
+    <script src="list.js"></script>
+    <div class="buttonAdci">
+      <button class="buttonAdci" onclick="adicionarPaciente()">
+        Adicionar Paciente
+      </button>
+    </div>
+    <div class="buttonReset">
+      <button class="buttonReset" onclick="removerUltimoPaciente()">
+        Remover Último Paciente
+      </button>
+    </div>
+    <table id="tabelaPacientes">
+      <!-- Cabeçalho da tabela -->
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Gênero</th>
+          <th>Contato Telefônico</th>
+          <th>Endereço</th>
+          <th>HD?</th>
+          <th>Tempo de Atendimento</th>
+          <th>Data de Início</th>
+          <th>Quantidade de Sessões</th>
+        </tr>
+      </thead>
+      <!-- Corpo da tabela -->
+      <tbody>
+        <!-- Linhas de pacientes serão adicionadas aqui -->
+      </tbody>
+    </table>
+  </body>
+</html>
